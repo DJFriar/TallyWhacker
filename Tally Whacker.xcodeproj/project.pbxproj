@@ -78,9 +78,7 @@
 				651BF4512496D7310054CCA5 /* Resources */,
 				651BF43D2496D7230054CCA5 /* AppDelegate.swift */,
 				651BF43F2496D7230054CCA5 /* SceneDelegate.swift */,
-				651BF4592496D7F80054CCA5 /* BonusButton.swift */,
-				651BF49B249855540054CCA5 /* UndoButton.swift */,
-				651BF49F249861770054CCA5 /* ClearButton.swift */,
+				651BF4A1249B23D30054CCA5 /* Buttons */,
 				651BF4412496D7230054CCA5 /* ContentView.swift */,
 				651BF45D2496DCF00054CCA5 /* bonusList.swift */,
 				651BF4432496D7240054CCA5 /* Assets.xcassets */,
@@ -116,6 +114,16 @@
 				651BF49D24985D8B0054CCA5 /* BonusStats.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		651BF4A1249B23D30054CCA5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				651BF4592496D7F80054CCA5 /* BonusButton.swift */,
+				651BF49B249855540054CCA5 /* UndoButton.swift */,
+				651BF49F249861770054CCA5 /* ClearButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
