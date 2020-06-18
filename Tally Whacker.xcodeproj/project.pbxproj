@@ -13,6 +13,15 @@
 		651BF4442496D7240054CCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651BF4432496D7240054CCA5 /* Assets.xcassets */; };
 		651BF4472496D7240054CCA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651BF4462496D7240054CCA5 /* Preview Assets.xcassets */; };
 		651BF44A2496D7240054CCA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651BF4482496D7240054CCA5 /* LaunchScreen.storyboard */; };
+		651BF4542496D7930054CCA5 /* Bonus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BF4532496D7930054CCA5 /* Bonus.swift */; };
+		651BF4562496D79C0054CCA5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BF4552496D79C0054CCA5 /* Data.swift */; };
+		651BF4582496D7CC0054CCA5 /* pointValuesBMR.json in Resources */ = {isa = PBXBuildFile; fileRef = 651BF4572496D7CC0054CCA5 /* pointValuesBMR.json */; };
+		651BF45A2496D7F80054CCA5 /* BonusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BF4592496D7F80054CCA5 /* BonusButton.swift */; };
+		651BF45C2496DB8D0054CCA5 /* GridBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BF45B2496DB8D0054CCA5 /* GridBuilder.swift */; };
+		651BF45E2496DCF00054CCA5 /* bonusList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BF45D2496DCF00054CCA5 /* bonusList.swift */; };
+		651BF49C249855540054CCA5 /* UndoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BF49B249855540054CCA5 /* UndoButton.swift */; };
+		651BF49E24985D8B0054CCA5 /* BonusStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BF49D24985D8B0054CCA5 /* BonusStats.swift */; };
+		651BF4A0249861770054CCA5 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BF49F249861770054CCA5 /* ClearButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		651BF4462496D7240054CCA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		651BF4492496D7240054CCA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		651BF44B2496D7240054CCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651BF4532496D7930054CCA5 /* Bonus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonus.swift; sourceTree = "<group>"; };
+		651BF4552496D79C0054CCA5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		651BF4572496D7CC0054CCA5 /* pointValuesBMR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pointValuesBMR.json; sourceTree = "<group>"; };
+		651BF4592496D7F80054CCA5 /* BonusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusButton.swift; sourceTree = "<group>"; };
+		651BF45B2496DB8D0054CCA5 /* GridBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBuilder.swift; sourceTree = "<group>"; };
+		651BF45D2496DCF00054CCA5 /* bonusList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bonusList.swift; sourceTree = "<group>"; };
+		651BF49B249855540054CCA5 /* UndoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoButton.swift; sourceTree = "<group>"; };
+		651BF49D24985D8B0054CCA5 /* BonusStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusStats.swift; sourceTree = "<group>"; };
+		651BF49F249861770054CCA5 /* ClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +74,15 @@
 		651BF43C2496D7230054CCA5 /* Tally Whacker */ = {
 			isa = PBXGroup;
 			children = (
+				651BF4522496D73A0054CCA5 /* Models */,
+				651BF4512496D7310054CCA5 /* Resources */,
 				651BF43D2496D7230054CCA5 /* AppDelegate.swift */,
 				651BF43F2496D7230054CCA5 /* SceneDelegate.swift */,
+				651BF4592496D7F80054CCA5 /* BonusButton.swift */,
+				651BF49B249855540054CCA5 /* UndoButton.swift */,
+				651BF49F249861770054CCA5 /* ClearButton.swift */,
 				651BF4412496D7230054CCA5 /* ContentView.swift */,
+				651BF45D2496DCF00054CCA5 /* bonusList.swift */,
 				651BF4432496D7240054CCA5 /* Assets.xcassets */,
 				651BF4482496D7240054CCA5 /* LaunchScreen.storyboard */,
 				651BF44B2496D7240054CCA5 /* Info.plist */,
@@ -73,6 +97,25 @@
 				651BF4462496D7240054CCA5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		651BF4512496D7310054CCA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				651BF4572496D7CC0054CCA5 /* pointValuesBMR.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		651BF4522496D73A0054CCA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				651BF4532496D7930054CCA5 /* Bonus.swift */,
+				651BF4552496D79C0054CCA5 /* Data.swift */,
+				651BF45B2496DB8D0054CCA5 /* GridBuilder.swift */,
+				651BF49D24985D8B0054CCA5 /* BonusStats.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +178,7 @@
 			files = (
 				651BF44A2496D7240054CCA5 /* LaunchScreen.storyboard in Resources */,
 				651BF4472496D7240054CCA5 /* Preview Assets.xcassets in Resources */,
+				651BF4582496D7CC0054CCA5 /* pointValuesBMR.json in Resources */,
 				651BF4442496D7240054CCA5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				651BF43E2496D7230054CCA5 /* AppDelegate.swift in Sources */,
+				651BF45A2496D7F80054CCA5 /* BonusButton.swift in Sources */,
+				651BF4562496D79C0054CCA5 /* Data.swift in Sources */,
+				651BF49E24985D8B0054CCA5 /* BonusStats.swift in Sources */,
+				651BF49C249855540054CCA5 /* UndoButton.swift in Sources */,
+				651BF45C2496DB8D0054CCA5 /* GridBuilder.swift in Sources */,
+				651BF4A0249861770054CCA5 /* ClearButton.swift in Sources */,
+				651BF4542496D7930054CCA5 /* Bonus.swift in Sources */,
+				651BF45E2496DCF00054CCA5 /* bonusList.swift in Sources */,
 				651BF4402496D7230054CCA5 /* SceneDelegate.swift in Sources */,
 				651BF4422496D7230054CCA5 /* ContentView.swift in Sources */,
 			);

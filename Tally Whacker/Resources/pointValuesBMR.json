@@ -1,0 +1,122 @@
+[
+    {
+        "name": "AF",
+        "category": "Airfields",
+        "value": 3.56,
+        "id": 101
+    },
+    {
+        "name": "BC",
+        "category": "Baptist Church",
+        "value": 0.667,
+        "id": 102
+    },
+    {
+        "name": "BN",
+        "category": "Biblical Names",
+        "value": 6.25,
+        "id": 103
+    },
+    {
+        "name": "CC",
+        "category": "Catholic Church",
+        "value": 0.877,
+        "id": 104
+    },
+    {
+        "name": "CD",
+        "category": "Cathedrals",
+        "value": 7.888,
+        "id": 105
+    },
+    {
+        "name": "CK",
+        "category": "Up A Creek",
+        "value": 3.3,
+        "id": 106
+    },
+    {
+        "name": "CT",
+        "category": "Small Town, Big City",
+        "value": 6.6,
+        "id": 107
+    },
+    {
+        "name": "DR",
+        "category": "3 Day Rally",
+        "value": 20.0,
+        "id": 108
+    },
+    {
+        "name": "FA",
+        "category": "Airports",
+        "value": 3.559,
+        "id": 109
+    },
+    {
+        "name": "LC",
+        "category": "Lutheran Church",
+        "value": 0.850,
+        "id": 110
+    },
+    {
+        "name": "MC",
+        "category": "Methodist Church",
+        "value": 0.88,
+        "id": 111
+    },
+    {
+        "name": "NW",
+        "category": "Naughty Words",
+        "value": 4.69,
+        "id": 112
+    },
+    {
+        "name": "PC",
+        "category": "Presbyterian Church",
+        "value": 0.888,
+        "id": 113
+    },
+    {
+        "name": "PW",
+        "category": "Past Winners",
+        "value": 6.6,
+        "id": 114
+    },
+    {
+        "name": "RJ",
+        "category": "RJ Says Go Here",
+        "value": 0.0,
+        "id": 115
+    },
+    {
+        "name": "SB",
+        "category": "Scenic Byways",
+        "value": 7.76,
+        "id": 116
+    },
+    {
+        "name": "SD",
+        "category": "Seventh-Day Advent Church",
+        "value": 1.00,
+        "id": 117
+    },
+    {
+        "name": "SS",
+        "category": "Route 66",
+        "value": 1.00,
+        "id": 118
+    },
+    {
+        "name": "WD",
+        "category": "Word of the Day",
+        "value": 2.2,
+        "id": 119
+    },
+    {
+        "name": "WH",
+        "category": "Word of the Hour",
+        "value": 4.4,
+        "id": 120
+    }
+]
